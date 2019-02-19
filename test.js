@@ -9,7 +9,7 @@ describe('Love triangles', () => {
   });
 
   it('2', () => {
-    const count = getLoveTrianglesCount([2, 3, 1, 5, 6, 4]);
+    const count = getLoveTrianglesCount([2, 3, 1, 5, 6, 4]); 
     assert.equal(count, 2);
   });
 
